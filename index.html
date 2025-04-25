@@ -14,10 +14,10 @@
 <body>
     <header>
         <div class="dropdown">
-            <div class="dropbtn" onclick="mostrarMenu()">
-                &#9776; <!-- Icono de 3 líneas -->
-            </div>
-            <div id="myDropdown" class="dropdown-content">
+            <button class="dropbtn" onclick="mostrarMenu()" aria-expanded="false" aria-controls="myDropdown">
+                &#9776;
+            </button>            
+            <div id="myDropdown" class="dropdown-content" aria-hidden="true">
                 <a href="index.html">Inicio</a>
                 <a href="catalogo.html">Catálogo</a>
                 <a href="about.html">Nosotros</a>

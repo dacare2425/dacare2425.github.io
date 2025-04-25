@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros - Coches Clásicos</title>
+    <title>Sobre Nosotros - Coches Clásicos</title>
     <link rel="stylesheet" href="style.css">
     <!-- <link rel="stylesheet" href="about.css"> -->
     <script type="text/javascript" src="script.js"></script>
@@ -14,10 +14,10 @@
     <header>
 
         <div class="dropdown">
-            <div class="dropbtn" onclick="mostrarMenu()">
+            <button class="dropbtn" onclick="mostrarMenu()" aria-expanded="false" aria-controls="myDropdown">
                 &#9776;
-            </div>
-            <div id="myDropdown" class="dropdown-content">
+            </button>
+            <div id="myDropdown" class="dropdown-content" aria-hidden="true">
                 <a href="index.html">Inicio</a>
                 <a href="catalogo.html">Catálogo</a>
                 <a href="about.html">Nosotros</a>
@@ -44,4 +44,5 @@
 <footer>
     <p>&copy; 2024 Coches Clásicos. Todos los derechos reservados.</p>
 </footer>
+
 </html>
